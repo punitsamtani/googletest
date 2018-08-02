@@ -1,0 +1,9 @@
+SCENARIO: QMetry Google Find
+META-DATA: {"description":"recorded scenario"}
+	Given get 'https://www.google.com/'
+	When click on 'hplogo.loc'
+	When click on 'lst.ib.loc'
+	And sendKeys 'qmetry' into 'lst.ib.loc'
+	And submit 'tsf.loc'
+	When click on 'QMetry.BestTestManagementandAutomatedTestingTools.loc'
+END

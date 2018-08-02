@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get 'https://www.google.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'hplogo.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'lst.ib.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And sendKeys 'qmetry' into 'lst.ib.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And submit 'tsf.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'QMetry.BestTestManagementandAutomatedTestingTools.loc'</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="googletest.scenarios.QAFTest.bdd" duration-ms="8628" started-at="2018-08-02T12:04:36Z" finished-at="2018-08-02T12:04:44Z">
+    <groups>
+    </groups>
+    <test name="BDD Test" duration-ms="8628" started-at="2018-08-02T12:04:36Z" finished-at="2018-08-02T12:04:44Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="QMetry Google Find" name="setupSuit" is-config="true" duration-ms="29" started-at="2018-08-02T17:34:36Z" finished-at="2018-08-02T17:34:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cee5251]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="QMetry Google Find" name="setupTest" is-config="true" duration-ms="13" started-at="2018-08-02T17:34:36Z" finished-at="2018-08-02T17:34:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cee5251]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="QMetry Google Find" name="setup" is-config="true" duration-ms="1" started-at="2018-08-02T17:34:36Z" finished-at="2018-08-02T17:34:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cee5251]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="QMetry Google Find" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-08-02T17:34:36Z" finished-at="2018-08-02T17:34:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cee5251]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="QMetry Google Find()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="QMetry Google Find" name="QMetry Google Find" duration-ms="8443" started-at="2018-08-02T17:34:36Z" description="recorded scenario" finished-at="2018-08-02T17:34:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get 'https://www.google.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'hplogo.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'lst.ib.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And sendKeys 'qmetry' into 'lst.ib.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And submit 'tsf.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'QMetry.BestTestManagementandAutomatedTestingTools.loc'</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- QMetry Google Find -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="QMetry Google Find" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-08-02T17:34:44Z" finished-at="2018-08-02T17:34:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cee5251]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=QMetry Google Find status=SUCCESS method=scenarios.QAFTest.bdd.QMetry Google Find()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get 'https://www.google.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'hplogo.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'lst.ib.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And sendKeys 'qmetry' into 'lst.ib.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And submit 'tsf.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'QMetry.BestTestManagementandAutomatedTestingTools.loc'</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="QMetry Google Find" name="afterClass" is-config="true" duration-ms="1" started-at="2018-08-02T17:34:44Z" finished-at="2018-08-02T17:34:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cee5251]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="QMetry Google Find" name="afterTest" is-config="true" duration-ms="114" started-at="2018-08-02T17:34:44Z" finished-at="2018-08-02T17:34:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cee5251]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="QMetry Google Find" name="afterSuit" is-config="true" duration-ms="2" started-at="2018-08-02T17:34:44Z" finished-at="2018-08-02T17:34:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cee5251]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- googletest.scenarios.QAFTest.bdd -->
+</testng-results>

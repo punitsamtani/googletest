@@ -1,0 +1,212 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://www.google.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2740
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[hplogo.loc]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=hplogo, using=id}"
+          ],
+          "result": "id: 0.6039291691258801-1",
+          "subLogs": [],
+          "duration": 66
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: hplogo",
+            "{\"id\":\"0.6039291691258801-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 91
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[lst.ib.loc]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=lst-ib, using=id}"
+          ],
+          "result": "id: 0.6039291691258801-2",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: lst-ib",
+            "{\"id\":\"0.6039291691258801-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 130
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[qmetry, lst.ib.loc]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=lst-ib, using=id}"
+          ],
+          "result": "id: 0.6039291691258801-2",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: lst-ib",
+            "{\"id\":\"0.6039291691258801-2\",\"value\":[\"qmetry\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 157
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "submit",
+      "args": [
+        "[tsf.loc]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tsf, using=id}"
+          ],
+          "result": "id: 0.6039291691258801-3",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "submitElement",
+          "args": [
+            "By.id: tsf",
+            "{\"id\":\"0.6039291691258801-3\"}"
+          ],
+          "result": "submitElement:null",
+          "subLogs": [],
+          "duration": 1538
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[QMetry.BestTestManagementandAutomatedTestingTools.loc]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()='QMetry: Best Test Management and Automated Testing Tools'], using=xpath}"
+          ],
+          "result": "id: 0.6273347202894637-1",
+          "subLogs": [],
+          "duration": 168
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()='QMetry: Best Test Management and Automated Testing Tools']",
+            "{\"id\":\"0.6273347202894637-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 167
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get 'https://www.google.com/'",
+      "type": "TestStepPass",
+      "duration": 5565,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When click on 'hplogo.loc'",
+      "type": "TestStepPass",
+      "duration": 184,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When click on 'lst.ib.loc'",
+      "type": "TestStepPass",
+      "duration": 175,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys 'qmetry' into 'lst.ib.loc'",
+      "type": "TestStepPass",
+      "duration": 190,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And submit 'tsf.loc'",
+      "type": "TestStepPass",
+      "duration": 1569,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When click on 'QMetry.BestTestManagementandAutomatedTestingTools.loc'",
+      "type": "TestStepPass",
+      "duration": 342,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+#
+#Thu Aug 02 17:32:35 IST 2018
+lst.ib.loc={"locator"\:"id\=lst-ib","desc"\:"lst ib loc"}
+hplogo.loc={"locator"\:"id\=hplogo","desc"\:"hplogo loc"}
+tsf.loc={"locator"\:"id\=tsf","desc"\:"tsf loc"}

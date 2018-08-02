@@ -1,0 +1,22 @@
+17:34:35 scenario.file.loc[Ljava.lang.String;@140e5a13
+17:34:35 loading BDD file: scenarios/QAFTest.bdd
+17:34:35 total test found: 1
+17:34:36 
+
+Executing scenario: QMetry Google Find - recorded scenario
+17:34:36 pkg: com.qmetry.qaf.automation.step
+17:34:36 pkg: com.googletest
+17:34:36 Found duplicate step to load [] with [lower] prority then []
+17:34:36 Invoking Teststep: Given get 'https://www.google.com/' with arguments: [https://www.google.com/]
+17:34:41 Completed Teststep: Given get 'https://www.google.com/' with arguments: [https://www.google.com/]
+17:34:41 Invoking Teststep: When click on 'hplogo.loc' with arguments: [hplogo.loc]
+17:34:42 Completed Teststep: When click on 'hplogo.loc' with arguments: [hplogo.loc]
+17:34:42 Invoking Teststep: When click on 'lst.ib.loc' with arguments: [lst.ib.loc]
+17:34:42 Completed Teststep: When click on 'lst.ib.loc' with arguments: [lst.ib.loc]
+17:34:42 Invoking Teststep: And sendKeys 'qmetry' into 'lst.ib.loc' with arguments: [qmetry, lst.ib.loc]
+17:34:42 Completed Teststep: And sendKeys 'qmetry' into 'lst.ib.loc' with arguments: [qmetry, lst.ib.loc]
+17:34:42 Invoking Teststep: And submit 'tsf.loc' with arguments: [tsf.loc]
+17:34:44 Completed Teststep: And submit 'tsf.loc' with arguments: [tsf.loc]
+17:34:44 Invoking Teststep: When click on 'QMetry.BestTestManagementandAutomatedTestingTools.loc' with arguments: [QMetry.BestTestManagementandAutomatedTestingTools.loc]
+17:34:44 Completed Teststep: When click on 'QMetry.BestTestManagementandAutomatedTestingTools.loc' with arguments: [QMetry.BestTestManagementandAutomatedTestingTools.loc]
+17:34:44 Competed scenario: QMetry Google Find with status SUCESS

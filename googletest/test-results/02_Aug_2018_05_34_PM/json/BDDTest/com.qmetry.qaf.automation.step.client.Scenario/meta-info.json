@@ -1,0 +1,22 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "recorded scenario",
+        "groups": [],
+        "lineNo": 1,
+        "name": "QMetry Google Find",
+        "referece": "scenarios/QAFTest.bdd",
+        "sign": "scenarios.QAFTest.bdd.QMetry Google Find()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1533211476089,
+      "duration": 8443,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "reports": [
+    {
+      "name": "googletest.scenarios.QAFTest.bdd",
+      "dir": "test-results/02_Aug_2018_05_34_PM/json",
+      "startTime": 1533211476000
+    }
+  ]
+}
